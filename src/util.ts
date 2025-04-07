@@ -1,7 +1,7 @@
-import { html } from "./html.js";
-import { mount } from "./mount.js";
-import { setAttrInternal } from "./setattr.js";
-import { text } from "./text.js";
+import { html } from "./html.ts";
+import { mount } from "./mount.ts";
+import { setAttrInternal } from "./setattr.ts";
+import { text } from "./text.ts";
 
 export function parseArguments(element, args) {
   parseArgumentsInternal(element, args);

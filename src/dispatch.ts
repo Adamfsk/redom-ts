@@ -1,4 +1,4 @@
-import { getEl } from "./util.js";
+import { getEl } from "./util";
 
 export function dispatch(child, data, eventName = "redom") {
   const childEl = getEl(child);

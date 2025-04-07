@@ -1,5 +1,5 @@
-import { createElement } from "./create-element.js";
-import { parseArgumentsInternal, getEl } from "./util.js";
+import { createElement } from "./create-element.ts";
+import { parseArgumentsInternal, getEl } from "./util";
 
 const ns = "http://www.w3.org/2000/svg";
 

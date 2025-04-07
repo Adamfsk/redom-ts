@@ -1,7 +1,7 @@
-import { setChildren } from "./setchildren.js";
-import { ensureEl } from "./util.js";
-import { unmount } from "./unmount.js";
-import { ListPool } from "./listpool.js";
+import { setChildren } from "./setchildren";
+import { ensureEl } from "./util";
+import { unmount } from "./unmount";
+import { ListPool } from "./listpool";
 
 export function list(parent, View, key, initData) {
   return new List(parent, View, key, initData);

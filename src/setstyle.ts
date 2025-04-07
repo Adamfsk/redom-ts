@@ -1,4 +1,4 @@
-import { getEl } from "./util.js";
+import { getEl } from "./util";
 
 export function setStyle(view, arg1, arg2) {
   const el = getEl(view);

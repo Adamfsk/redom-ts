@@ -1,7 +1,7 @@
 /* global Node */
 
-import { ensureEl } from "./util.js";
-import { setChildren } from "./setchildren.js";
+import { ensureEl } from "./util";
+import { setChildren } from "./setchildren";
 
 export function router(parent, views, initData) {
   return new Router(parent, views, initData);

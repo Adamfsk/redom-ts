@@ -1,7 +1,7 @@
 /* global Node, ShadowRoot */
 
-import { getEl } from "./util.js";
-import { doUnmount } from "./unmount.js";
+import { getEl } from "./util";
+import { doUnmount } from "./unmount";
 
 const hookNames = ["onmount", "onremount", "onunmount"];
 const shadowRootAvailable =

@@ -1,5 +1,5 @@
-import { getEl } from "./util.js";
-import { trigger } from "./mount.js";
+import { getEl } from "./util";
+import { trigger } from "./mount.ts";
 
 export function unmount(parent, _child) {
   let child = _child;

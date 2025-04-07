@@ -1,6 +1,6 @@
-import { mount } from "./mount.js";
-import { unmount } from "./unmount.js";
-import { getEl, isNode } from "./util.js";
+import { mount } from "./mount.ts";
+import { unmount } from "./unmount";
+import { getEl, isNode } from "./util";
 
 export function setChildren(parent, ...children) {
   const parentEl = getEl(parent);

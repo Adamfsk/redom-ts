@@ -1,5 +1,5 @@
-import { createElement } from "./create-element.js";
-import { parseArgumentsInternal, getEl } from "./util.js";
+import { createElement } from "./create-element";
+import { parseArgumentsInternal, getEl } from "./util";
 
 export function html(query, ...args) {
   let element;

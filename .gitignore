@@ -9,3 +9,9 @@ package-lock.json
 
 # Other
 .DS_Store
+
+# IntelliJ
+.idea
+
+# Vite
+.vite-temp

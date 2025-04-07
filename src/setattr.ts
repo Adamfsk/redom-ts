@@ -1,7 +1,7 @@
 /* global SVGElement */
 
-import { setStyle } from "./setstyle.js";
-import { getEl } from "./util.js";
+import { setStyle } from "./setstyle";
+import { getEl } from "./util";
 
 const xlinkns = "http://www.w3.org/1999/xlink";
 

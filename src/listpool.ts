@@ -1,4 +1,4 @@
-import { getEl } from "./util.js";
+import { getEl } from "./util";
 
 export function listPool(View, key, initData) {
   return new ListPool(View, key, initData);
